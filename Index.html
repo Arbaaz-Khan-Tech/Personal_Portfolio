@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbaaz Khan Portfolio</title>
+
+    <link rel="icon" href="favicon.ico" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    
+</script>
+
+   
+ 
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" style="text-decoration: none;"> <div class="logo"> Arbaaz Khan</div> </a>
+    <div class="nav-links">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+
+
+    </div>
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+
+<section class="hero">
+    <h2>Hi, I am</h2>
+    <h1>Arbaaz Khan</h1>
+    <div class="typewriter" id="typewriter"></div>
+    <p>Passionate about protecting systems, solving problems, and building secure digital experiences.</p>
+    <a href="#contact">  <button class="cta-button">Get in Touch</button> </a>
+</section>
+
+<script>
+    // Navbar functionality
+   
+</script>
+
+<!-- Add this section after the closing </section> tag of the hero section -->
+<section id="about" class="about">
+  <div class="about-content">
+      <div class="about-text">
+          <h2>About Me</h2>
+          <p>Hello! I'm a passionate cybersecurity enthusiast, ethical hacker, and web developer. With a keen interest in protecting digital assets and creating secure web applications, I strive to make the internet a safer place for everyone.</p>
+          <p>My journey in the world of technology has equipped me with a unique blend of offensive and defensive security skills, coupled with a strong foundation in web development. I'm constantly learning and adapting to the ever-evolving landscape of cybersecurity.</p>
+          <p>I chose cybersecurity because I find it both intellectually challenging and incredibly impactful. The constant problem-solving and the opportunity to safeguard systems from real-world threats truly excites me.</p>
+      </div>
+      <div class="about-image">
+          <img src="https://via.placeholder.com/300" alt="Your Name">
+          <div class="social-icons">
+              <a href="https://github.com/Arbaaz-Khan-Tech" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/arbaaz-khan-717345259/" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="skills">
+<div class="skills-container">
+    <h2>Skills</h2>
+
+    <div class="skill-category">
+        <h3>Programming Languages</h3>
+        <div class="skill-list">
+            <div class="skill-item" data-skill="python">Python</div>
+            <div class="skill-item" data-skill="c">C</div>
+            <div class="skill-item" data-skill="javascript">JavaScript</div>
+        </div>
+        <div class="skill-details" id="python-details">
+            Python: Versatile language used for scripting, data analysis, and backend development.
+        </div>
+        <div class="skill-details" id="c-details">
+            C: Low-level language ideal for system programming and embedded systems.
+        </div>
+        <div class="skill-details" id="javascript-details">
+            JavaScript: Essential for web development, both frontend and backend (Node.js).
+        </div>
+    </div>
+
+    <div class="skill-category">
+        <h3>Cybersecurity Tools</h3>
+        <div class="skill-list">
+            <div class="skill-item" data-skill="wireshark">Wireshark</div>
+            <div class="skill-item" data-skill="burpsuite">Burp Suite</div>
+            <div class="skill-item" data-skill="metasploit">Metasploit</div>
+            <div class="skill-item" data-skill="nmap">Nmap</div>
+            <div class="skill-item" data-skill="Splunk">Splunk</div>
+        </div>
+        <div class="skill-details" id="wireshark-details">
+            Wireshark: Network protocol analyzer for monitoring and troubleshooting network traffic.
+        </div>
+        <div class="skill-details" id="burpsuite-details">
+            Burp Suite: Web vulnerability scanner and penetration testing tool.
+        </div>
+        <div class="skill-details" id="metasploit-details">
+            Metasploit: Penetration testing framework for discovering and exploiting vulnerabilities.
+        </div>
+        <div class="skill-details" id="nmap-details">
+            Nmap: Network discovery and security auditing tool.
+        </div>
+    </div>
+
+    <div class="skill-category">
+        <h3>Other Skills</h3>
+        <div class="skill-list">
+            <div class="skill-item" data-skill="networking">Networking</div>
+            <div class="skill-item" data-skill="incident-response">Incident Response</div>
+            <div class="skill-item" data-skill="log-analysis">Log Analysis</div>
+            <div class="skill-item" data-skill="vulnerability-assessment">Vulnerability Assessment</div>
+            <div class="skill-item" data-skill="penetration-testing">Penetration Testing</div>
+            <div class="skill-item" data-skill="linux">Linux Fundamentals</div>
+        </div>
+        <div class="skill-details" id="networking-details">
+            Networking: Understanding of network protocols, topologies, and troubleshooting.
+        </div>
+        <div class="skill-details" id="vulnerability-assessment-details">
+            Vulnerability Assessment: Identifying and analyzing security vulnerabilities in systems and networks.
+        </div>
+        <div class="skill-details" id="penetration-testing-details">
+            Penetration Testing: Simulating cyberattacks to identify and fix security weaknesses.
+        </div>
+        <div class="skill-details" id="linux-details">
+            Linux Fundamentals: Proficiency in Linux command-line operations and system administration basics.
+        </div>
+    </div>
+</div>
+</section>
+<script>
+ 
+</script>
+
+
+
+<!-- Add this section after the about section -->
+<section id="projects" class="projects">
+  <h2 class="section-title">My Projects</h2>
+  <div class="projects-grid">
+      <!-- Project Card 1 -->
+      <div class="project-card">
+          <div class="project-tech">
+              <div class="tech-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                </svg>
+                  <span>Python</span>
+                  </div>
+                  <div class="tech-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  </svg>
+                  <span>Security</span>
+              </div>
+          </div>
+
+
+    
+
+
+          <div class="project-info">
+              <h3>FireBot</h3>
+              <p>
+                <ul>
+                    <li>Developed a tool that monitors camera statuses, detects malicious links, and captures network traffic to identify suspicious IP addresses.</li>
+                    <li>Integrated encryption and decryption features to ensure secure message exchanges.</li>
+                    <li>Implemented automated checks for IP address safety and password strength assessments.</li>
+                    <li>Added password generation and real-time security alerts, featuring an interactive user interface.</li>
+                </ul>
+              </p>
+              <a href="https://github.com/Arbaaz-Khan-Tech/Fire-bot" target="_blank" class="learn-more">
+                Source Code
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+          </div>
+      </div>
+
+     
+      
+      <!-- Project Card 2 -->
+      <div class="project-card">
+          <div class="project-tech">
+              <div class="tech-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+
+                  </svg>
+                  <span>Node.js</span>
+                  </div>
+                  <div class="tech-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z" />
+                </svg>
+                  <span>AI</span>
+              </div>
+          </div>
+          <div class="project-info">
+              <h3>EduNavigator</h3>
+              <p>
+
+                <ul>
+                    <li>Designed an AI-driven web platform that suggests personalized career paths based on user inputs, providing skill development insights.</li>
+                    <li>Recommends colleges based on user exam scores (CET & JEE) and offers admission guidance.</li>
+                    <li>Planned future integration with a mentorship program to connect users with industry experts.</li>
+                    <li>Currently, the platform is not open source, but we plan to make it available soon.</li>
+                </ul>
+
+              </p>
+              <a href="" class="learn-more" style="pointer-events: none; color: #888;">
+                Source Code
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+          </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="project-card">
+          <div class="project-tech">
+              <div class="tech-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                </svg>
+                  <span>Html5,Css</span>
+              </div>
+              <div class="tech-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+
+                </svg>
+                  <span>Js</span>
+              </div>
+          </div>
+          <div class="project-info">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                <ul>
+                    <li>Interactive and Responsive Design:</li>
+                    <li>Smooth User Experience</li>
+                    <li>Custom Styling</li>
+                </ul>
+              </p>
+              <a href="#" class="learn-more">
+                Source Code
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="container">
+    <div class="tabs">
+        <button class="tab active" data-tab="experience">Experience</button>
+        <button class="tab" data-tab="achievements">Achievements</button>
+    </div>
+
+    <div id="experience" class="tab-content active">
+        <h2>Experience</h2>
+        <div class="experience-card">
+            <h3>Cybersecurity Intern</h3>
+            <div class="company">Macksofy Technologies Pvt Ltd </div>
+            <div class="duration">July 2024 - December 2024</div>
+            <ul>
+                <li>Assisted in conducting vulnerability assessments and penetration testing on company systems and networks.</li>
+                <li>Contributed to the development and implementation of security policies and procedures.</li>
+                <li>Monitored and analyzed security logs to identify potential threats and anomalies.</li>
+                <li>Participated in incident response drills and helped improve the company's incident response plan.</li>
+                <li>Researched emerging cybersecurity threats and presented findings to the security team.</li>
+                <li>Collaborated with IT teams to enhance system security and implement best practices.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="achievements" class="tab-content">
+        <h2>Achievements</h2>
+        <div class="achievement-cards">
+
+            <div class="achievement-card">
+                <h3>First Prize, National-Level Hackathon</h3>
+                <p>Awarded for developing FireBot, a cybersecurity chatbot, showcasing strong problem-solving and creativity.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <h3>First Place, College Project Exhibition</h3>
+                <p>Awarded for the innovative design and implementation of a College Database Management System.</p>
+            </div>
+           
+            <div class="achievement-card">
+                <h3>Core Team Member, H2C Hackathon</h3>
+                <p>Managed logistics, secured sponsors, and set up technical infrastructure for 350+ participants, coordinating with 40+ volunteers.</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+  
+</script>
+
+
+    <section id="contact" class="contact">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-container">
+          <div class="contact-info">
+              <div class="contact-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <a href="mailto:arbaaz.khan.tech@gmail.com">arbaaz.khan.tech@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                  <a href="https://www.linkedin.com/in/arbaaz-khan-717345259/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+              </div>
+          </div>
+          <form class="contact-form">
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+      </div>
+  </section>
+  
+
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>navigation</h3>
+            <ul class="footer-links">
+                <li><a href="#">Back to Top</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h3>connect</h3>
+            <div class="social-links">
+                <a href="https://github.com/Arbaaz-Khan-Tech" target="_blank" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/arbaaz-khan-717345259/" target="_blank" aria-label="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="mailto:arbaaz.khan.tech@gmail.com" aria-label="Email">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2024 Arbaaz Khan. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
